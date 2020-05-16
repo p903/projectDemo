@@ -1,0 +1,65 @@
+<!DOCTYPE html>       
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery.js"></script>
+    <title>Document</title>
+    <style>
+        .div2{
+            width:380px;
+            height:280px;
+            border:1px solid blue;
+            margin-top:8px;
+            margin-left: 8px;
+            background-color: crimson;
+
+
+        }
+        button{
+            float:right;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+             $("#test").hide();
+             $("button").hide();
+             $(".div1").hide();
+                
+            });
+        });
+    </script>
+</head>
+<body><p>hello bro.(github user name:- p903)(pass- github@12345)..</p>
+    <div class="div1" style="width:400px;height:300px;background-color: blue;z-index:1; position:absolute">
+        <div class="div2">
+    <button type="button">x</button>
+    <h1 id="test">premlal kumar</h1>
+    <form action="/action_page.php" class="was-validated">
+        <div class="form-group">
+          <label for="uname">Username:</label>
+          <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="remember" required> I agree on blabla.
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Check this checkbox to continue.</div>
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+   </div></div>
+   <b style="position:absolute;">good morning india</b>
+   
+</body>
+</html>
